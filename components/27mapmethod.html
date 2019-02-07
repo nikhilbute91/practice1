@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>map method</title>
+	<script type="text/javascript" src="jquery3.1.1.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			alert($('li').map(function(index, element){
+				return $(element).text();
+			}).get());	
+		});
+	</script>
+</head>
+<body>
+	<ul>
+		<li>US</li>
+		<li>India</li>
+		<li>UK</li>
+		<li>Canada</li>
+		<li>Australia</li>
+	</ul>
+</body>
+</html>

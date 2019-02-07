@@ -1,0 +1,17 @@
+{
+  "name": "udamy",
+  "version": "1.0.0",
+  "description": "site by nikhil",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.9.3"
+  },
+  "dependencies": {
+    "live-server": "^1.2.0"
+  }
+}
